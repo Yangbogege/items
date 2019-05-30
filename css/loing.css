@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    font-size: 10px;
+
+}
+.box{
+    width: 100%;
+    height: 100%;
+
+}
+.box h1{
+    height: 5rem;font-size: 3rem;
+    color: white;line-height: 5rem;
+    background: #F9DE91;
+    border-bottom: 1px solid #a4a4a4;
+    padding-left: 1rem;
+}
+.phone{
+    width: 86%;
+    margin: 2rem 7%;
+    height: 5rem;
+    font-size: 2rem;
+}
+p{
+    width: 86%;
+    margin: 3rem 7%;
+    height: 5rem;
+}
+p input{
+    width: 45%;
+    height: 5rem;
+    font-size: 2rem;
+    box-sizing: border-box;
+}
+button{
+    /*display: inline-block;*/
+    width: 35%;
+    margin-left: 10%;
+    background: red;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5rem;
+}
+h2{
+    margin: 1rem 7%;
+    color: silver;
+}

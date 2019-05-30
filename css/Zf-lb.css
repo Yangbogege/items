@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    font-size: 10px;
+    background: #F4F5F4;
+}
+header{
+    width: 100%;
+    border-bottom: 1px solid #dccbdc;
+}
+header .inp{
+    width: 80%;
+    margin: 1rem 10%;
+    background: white;
+    border: 1px solid #a4b8c1;
+    display: flex;
+}
+header .inp input{
+    border: none;
+    width: 80%;
+    height: 3rem;
+    border-right:1px solid silver ;
+}
+header .inp img{
+    padding-left: 1rem;
+}
+.nav{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #dccbdc;
+    background: white;
+}
+.nav ul{
+    padding: 1rem;
+    display: flex;
+
+}
+.nav ul li {
+    width: 25%;
+    text-align: center;
+    font-size: 1.7rem;
+    color: black;
+    border-right: 1px solid #aabfc8;
+}
+.nav ul li:nth-child(4){
+    border: none;
+}
+.nav ul li:hover{
+    color: #e5a24c;
+}
+.hidden{
+    width: 100%;
+
+}
+.hidden-qy{
+    width: 100%;
+    display: flex;
+    background: white;
+}
+.hidden-qy ul{
+    font-size: 1.7rem;
+}
+.hidden-qy .qy{
+    width: 25%;
+    text-align: center;
+    background: #F4F5F4;
+}
+.hidden-qy .fj{
+    width: 25%;
+    padding-left: 2rem;
+    border-right: 1px solid silver;
+}
+.hidden-qy .bx{
+    padding-left: 2rem;
+}
+.hidden-qy ul li{
+    width: 100%;
+
+    font-size: 1.7rem;
+    color: black;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.hidden-jg{
+    width: 100%;
+    background: white;
+}
+.hidden-jg ul{
+    margin: 10%;
+    width: 80%;
+}
+.hidden-jg ul li{
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    color: #6d6d6d;
+}
+.hidden-jg ul li span input{
+    margin-left: 2rem;
+    width: 10%;
+    background: #F5F5F5;
+    border-radius: 1rem;
+    border: none;
+}
+.hidden-fx{
+    width: 100%;
+    background: white;
+}
+.hidden-fx ul{
+
+}
+.hidden-fx ul li{
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 1.5rem;
+    color: #6d6d6d;
+    margin-left: 10%;
+}
+.hidden-fx ul li:nth-child(7){
+    text-align: center;
+    color: white;
+    background: #FF8A00;
+    margin: 0;
+    width: 100%;
+}
+
+.hidden-gd{
+    width: 90%;
+    height: auto;
+    padding: 1rem 5%;
+    background: white;
+}
+.hidden-gd ul li{
+    color: black;
+    padding: 1rem 0;
+    font-size: 1.7rem;
+    border-bottom: 1px solid #d6d6d6;
+
+}
+.hidden-gd ul li ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    color: silver;
+    font-size: 1.4rem;
+}
+.hidden-gd ul li ul li{
+    border: 1px solid silver;
+    margin: 3%;
+    width: 18%;
+    text-align: center;
+    color: silver;
+    font-size: 1.4rem;
+}
+
+
+
+
+.house{
+    width: 90%;
+    height: auto;
+    margin: 1rem 5%;
+}
+.house ul{
+    /*display:flex;*/
+    width: 100%;
+}
+.house ul li{
+    width: 100%;
+    border-bottom: 1px solid #dd9447;
+    padding: 1rem;
+}
+.house ul li:nth-child(3){
+    border: none;
+}
+.house ul li a{
+    display: flex;
+    color: black;
+}
+.house ul li a img{
+    width: 30%;
+    height: 30%;
+}
+.house ul li a .size {
+    width: 64%;
+    padding-left: 1rem;
+}
+.house ul li a .size h1{
+    white-space: nowrap;
+    text-overflow:ellipsis ;
+    overflow: hidden;
+    height: 3rem;
+    line-height: 2rem;
+}
+.house ul li a .size p:nth-child(3){
+    color: #5b666b;
+    justify-content: space-between;
+    display: flex;
+    line-height: 2.3rem;
+    height: 2.3rem;
+    font-size: 1.4rem;
+}
+.house ul li a .size p:nth-child(4){
+    color: #99A2A9;
+    font-size: 1.6rem;
+    height: 2rem;
+    line-height: 2rem;
+}
+.house ul li a .size p:nth-child(4) span {
+    display: inline-block;
+    background: #e2e6e6;
+    margin-right: .5rem;
+}

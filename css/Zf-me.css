@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    font-size:10px;
+    background: #f6f6f6;
+}
+.box{
+    width: 100%;
+    height: 100%;
+
+}
+.header{
+    background: url("../image/my/bg1.png") no-repeat;
+    overflow: hidden;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+}
+.header .top{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.header .top a{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    margin: 1rem 1rem 1rem 0;
+}
+.header .top a p{
+    font-size: 1.3rem;
+    color: white;
+}
+.header .photo{
+    text-align:center;
+    /*margin-top: 2rem;*/
+    padding: 2rem 0 4rem 0;
+    height: 40%;
+    -webkit-touch-callout:none;
+}
+.header .photo p{
+    margin-top: 1rem;
+
+}
+.header .photo p button{
+    padding: .5rem 2.7rem;
+    border:1px solid white;
+    font-size: 1.7rem;
+    background: none;
+    color: white;
+}
+
+
+.nav{
+    margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-top: 1px solid #cae2ed;
+    border-bottom: 1px solid #cae2ed;
+}
+.nav ul li{
+    height: 100%;
+
+}
+.nav ul li a{
+    display: flex;
+    height: 6rem;
+    line-height: 6rem;
+    font-size: 1.7rem;
+    color: black;
+    overflow: hidden;
+    justify-content: space-around;
+    padding: 0 2rem;
+}
+
+.nav ul li a p:nth-child(2){
+    padding-left: .5rem;
+    flex-grow:2 ;
+    border-bottom: 1px solid #cae2ed;
+}
+.nav ul li a p:nth-child(3){
+    border-bottom: 1px solid #cae2ed;
+}
+
+.nav ul li:nth-child(4) a p {
+    border:none;
+}

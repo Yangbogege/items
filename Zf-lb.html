@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>Title</title>
+    <link rel="stylesheet" href="css/Zf-lb.css">
+    <script src="js/rem.js"></script>
+    <script src="js/zepto.js"></script>
+</head>
+<body>
+    <header>
+        <div class="inp">
+            <input type="text">
+            <img src="image/index/seach.jpg" alt="">
+        </div>
+    </header>
+    <div class="nav">
+        <ul>
+            <li>区域</li>
+            <li>价格</li>
+            <li>房型</li>
+            <li>更多</li>
+        </ul>
+    </div>
+    <div class="hidden">
+        <div class="hidden-qy show" style="display: none">
+            <ul class="qy">
+                <li style="background: white;color: #dd9447">区域</li>
+                <li>地铁</li>
+            </ul>
+            <ul class="fj">
+                <li>附近</li>
+                <li>不限</li>
+                <li style="color: #dd9447">朝阳</li>
+                <li>海淀</li>
+                <li>昌平</li>
+                <li>丰台</li>
+                <li>石景山</li>
+            </ul>
+            <ul class="bx">
+                <li style="color: #dd9447">不限</li>
+                <li>安贞</li>
+                <li>奥林匹克公园</li>
+                <li>百子湾</li>
+                <li>北工大</li>
+                <li>北苑</li>
+                <li>CBD</li>
+            </ul>
+        </div>
+        <div class="hidden-jg show" style="display: none">
+            <ul>
+                <li>不限</li>
+                <li>100万以</li>
+                <li>100万-150万</li>
+                <li>150万-200万</li>
+                <li>200万-250万</li>
+                <li>250万-300万</li>
+                <li>自定义价格 <span><input type="text" placeholder="最小"></span>~<span><input type="text" placeholder="最大"></span></li>
+            </ul>
+        </div>
+        <div class="hidden-fx show" style="display: none">
+            <ul>
+                <li>不限</li>
+                <li>1室</li>
+                <li>2室</li>
+                <li>3室</li>
+                <li>4室</li>
+                <li>5室</li>
+                <li>确定</li>
+            </ul>
+        </div>
+        <div class="hidden-gd show" style="display: none">
+            <ul>
+                <li>区域
+                    <ul>
+                        <li>南</li>
+                        <li>南北</li>
+                        <li>东</li>
+                        <li>西</li>
+                        <li>北</li>
+                    </ul>
+                </li>
+                <li>面积（平米）
+                    <ul>
+                        <li>50以下</li>
+                        <li>50-70</li>
+                        <li>70-90</li>
+                        <li>90-110</li>
+                        <li>110-130</li>
+                        <li>130-150</li>
+                        <li>200以上</li>
+                    </ul>
+                </li>
+                <li>标签
+                    <ul>
+                        <li>学区房</li>
+                        <li>地铁房</li>
+                        <li>不限购</li>
+                        <li>满两年</li>
+                        <li>满五唯一</li>
+                        <li>降价</li>
+                        <li>新上</li>
+                        <li>独家</li>
+                        <li>有钥匙</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="house">
+        <ul>
+            <li>
+                <a href="">
+                    <img src="image/index/img1.jpg" alt="">
+                    <div class="size">
+                        <h1>文化部中间层  一层带阁楼</h1>
+                        <h2>2室1厅96㎡南北 1105万</h2>
+                        <p><span>红庙北里</span> <span>14268元/平</span></p>
+                        <p><span>学区房</span><span>独家</span></p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="image/index/img3.png" alt="">
+                    <div class="size">
+                        <h1>光大水墨  精装复式 稀缺</h1>
+                        <h2>3室1厅96㎡南北 280万</h2>
+                        <p><span>光大水墨</span> <span>14268元/平</span></p>
+                        <p><span>学区房</span><span>独家</span><span>满五唯一</span></p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="image/index/img2.png" alt="">
+                    <div class="size">
+                        <h1>南北通透两居  精装修 无</h1>
+                        <h2>2室1厅96㎡南北 320万</h2>
+                        <p><span>北京新天地</span> <span>14268元/平</span></p>
+                        <p><span>地铁房</span><span>独家</span></p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+<script>
+    $('.nav').on('tap',function () {
+        $('.hidden>div').css('display','none');
+        $(".hidden-qy ") .css('display',"flex");
+    });
+
+
+</script>
+</html>

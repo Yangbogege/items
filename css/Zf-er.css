@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    font-size:10px;
+    background: #f6f6f6;
+}
+.box{
+    width: 100%;
+    height: 100%;
+}
+.pic{
+    width: 100%;
+    height: 18rem;
+}
+.pic .swiper-container{
+    width: 100%;
+    height: 18rem;
+    position: absolute;
+}
+.swiper-wrapper .swiper-slide{
+    width: 100%;
+    height: 18rem;
+    position: absolute;
+}
+.swiper-wrapper .swiper-slide img{
+    width: 100%;
+    height: 18rem;
+}
+.box .int{
+    width: 90%;
+    padding:5% ;
+    background: white;
+}
+.box .int h2{
+   display: flex;
+    position: relative;
+    height: 3rem;
+    line-height: 3rem;
+}
+.box .int h2 span:nth-child(1){
+    color: red;
+}
+.box .int h2 span:nth-child(2){
+    background: url("../image/SecondHandList/phone.png") no-repeat;
+    background-size: 100% 60%;
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+}
+.box .int h3{
+    color: silver;
+    height: 3rem;
+    line-height: 3rem;
+}
+.box .int h4{
+    color: #B1BBC6;
+}
+.box .int h4 span{
+    background: #F5F8FB;
+    margin: 1rem;
+}
+
+.box .deta{
+    width: 90%;
+    margin-top: 1rem;
+    background: white;
+    padding: 0 5%;
+}
+.box .deta ul{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.box .deta ul li{
+    width: 50%;
+    height: 2.7rem;
+    line-height: 2.7rem;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.box .deta ul li span{
+    color: #a4a4a4;
+}
+.box .deta ul:nth-child(2){
+    display: inline;
+}
+.box .deta ul:nth-child(2) li{
+    width: 100%;
+    position: relative;
+}
+.box .deta ul:nth-child(2) li span:nth-child(2){
+    position: absolute;
+    right: 1rem;
+    top: 0;
+}
+.box .deta p{
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.box .deta p a{
+    color: #a4a4a4;
+}
+
+.feat{
+    width: 90%;
+    margin-top: 1rem;
+    padding:1rem 5%;
+    background: white;
+}
+.feat h1{
+    color: #F9DE91;line-height: 5rem;
+    border-bottom: 1px solid #a4a4a4;
+}
+.feat h2 {
+    line-height: 2rem;
+    border-bottom: 1px solid #a4a4a4;
+}
+.feat p{
+    text-align: center;
+    font-size: 1.7rem;
+    color: silver;
+    height: 3rem;
+    line-height: 3rem;
+    /*border-bottom: 1px solid #a4a4a4;*/
+}
+
+
+
+
+ .house{
+    width: 90%;
+    height: auto;
+    padding: 1rem 5%;
+     background: white;
+}
+ .house ul{
+    /*display:flex;*/
+    width: 100%;
+}
+ .house .hx{
+     color: #E9B57F;
+     font-size: 1.7rem;
+     height: 3rem;
+     line-height: 3rem;
+ }
+ .house ul li{
+    width: 100%;
+    border-bottom: 1px solid #dd9447;
+    padding: 1rem;
+}
+ .house ul li:nth-child(3){
+    border: none;
+}
+ .house ul li a{
+    display: flex;
+    color: black;
+}
+ .house ul li a img{
+    width: 30%;
+     height: 50%;
+}
+ .house ul li a .size {
+    width: 64%;
+    padding-left: 1rem;
+}
+ .house ul li a .size h2{
+    white-space: nowrap;
+    text-overflow:ellipsis ;
+    overflow: hidden;
+    /*height: 3rem;*/
+    line-height: 2rem;
+}
+
+ .house ul li a .size p:nth-child(3){
+    color: #BDC6CE;
+    font-size: 1.6rem;
+    height: 2rem;
+    line-height: 2rem;
+}
+ .house ul li a .size p:nth-child(3) span{
+    display: inline-block;
+    background: #F4F9FB;
+    margin-right: .5rem;
+}
+
+
+ .school{
+     width: 90%;
+     margin-top: 1rem;
+     background: white;
+     padding: 0 5%;
+ }
+ .school h1{
+    padding: 1rem;
+ }
+ .school ul{
+     width: 100%;
+ }
+.school ul li{
+    font-size: 1.5rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    border-bottom: 1px solid #a4a4a4;
+}
+.school p{
+    text-align: center;
+    font-size: 1.7rem;
+    color: silver;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+.map{
+    width: 90%;
+    margin-top: 1rem;
+    background: white;
+    padding: 0 5%;
+}
+.map h1{
+    padding: 1rem;
+}
+.map img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.recommend{
+    width: 90%;
+    margin-top: 1rem;
+    background: white;
+    padding: 0 5%;
+}
+/*.recommend h1{*/
+    /*padding: 1rem;*/
+/*}*/
+
+.recommend .house{
+    width: 90%;
+    height: auto;
+    /*margin: 1rem 5%;*/
+}
+.recommend .house ul{
+    /*display:flex;*/
+    width: 100%;
+}
+.recommend .house ul li{
+    width: 100%;
+    border-bottom: 1px solid #dd9447;
+    padding: 1rem;
+}
+.recommend .house ul li:nth-child(3){
+    border: none;
+}
+.recommend .house ul li a{
+    display: flex;
+    color: black;
+}
+.recommend .house ul li a img{
+    width: 30%;
+}
+.recommend .house ul li a .size {
+    width: 64%;
+    padding-left: 1rem;
+}
+.recommend .house ul li a .size h1{
+    white-space: nowrap;
+    text-overflow:ellipsis ;
+    overflow: hidden;
+    /*height: 3rem;*/
+    line-height: 2rem;
+}
+.recommend .house ul li a .size p:nth-child(3){
+    color: #5b666b;
+    justify-content: space-between;
+    display: flex;
+    /*line-height: 2.3rem;*/
+    /*height: 2.3rem;*/
+    font-size: 1.4rem;
+}
+.recommend .house ul li a .size p:nth-child(4){
+    color: #99A2A9;
+    font-size: 1.3rem;
+    height: 2rem;
+    line-height: 2rem;
+}
+.recommend .house ul li a .size p:nth-child(4) span{
+    display: inline-block;
+    background: #e2e6e6;
+    margin-right: .5rem;
+}
+
+
+.recommend p{
+    text-align: center;
+    font-size: 1.7rem;
+    color: silver;
+    height: 3rem;
+    line-height: 3rem;
+}
